@@ -4,4 +4,8 @@ const pReduce = (values, fn) =>
     Promise.resolve()
   );
 
+const test = () => {}
+
+const test2 = () => {}
+
 module.exports = pReduce;
