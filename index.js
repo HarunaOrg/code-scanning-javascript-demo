@@ -14,6 +14,10 @@ var echo = function (name) {
   return name
 }
 
+var redirect = function (name) {
+  window.location = name;
+}
+
 var normalize = !win32 ? echo : function (name) {
   return name.replace(/\\/g, '/').replace(/[:?<>|]/g, '_')
 }
